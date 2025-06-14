@@ -21,7 +21,7 @@ A função **`ordemCrescente`** é responsável por ordenar um vetor de números
 fn ordemCrescente(lista: &mut Vec<i64>)
 ```
 
-### 2. `filtrar_pares` (Filtragem de números pares únicos)
+### 2. `filtrar_pares` (Filtragem de números pares)
 
 A função **`filtrar_pares`** recebe um vetor mutável de inteiros e filtra apenas os números pares. O vetor é modificado in-place para conter apenas os valores pares distintos.
 
