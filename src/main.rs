@@ -1,3 +1,13 @@
+fn ordena_decrescente(lista: &mut Vec<i64>) {
+    let n = lista.len();
+    for i in 1..n {
+        let mut j = i;
+        while j > 0 && lista[j - 1] < lista[j] { // Alterado de '>' para '<' para ordenação decrescente
+            lista.swap(j, j - 1);
+            j -= 1;
+        }
+    }
+}
 fn ordemCrescente(lista: &mut Vec<i64>) {
     let n = lista.len();
     for i in 1..n {
@@ -32,6 +42,7 @@ fn main() {
     println!("Lista original: {:?}", numeros);
 
     executar_estrategia(&mut numeros, ordemCrescente);
+    executar_estrategia(&mut numeros, ordena_decrescente);
     executar_estrategia(&mut numeros, filtrar_pares);
 
 }
