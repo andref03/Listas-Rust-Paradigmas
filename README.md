@@ -1,4 +1,4 @@
-# paradigmas-list-strategy-rust
+# Estratégias de Operações com Listas em Rust
 
 ## Funcionalidades
 
