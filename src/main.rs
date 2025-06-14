@@ -19,6 +19,8 @@ fn filtrar_pares(vetor: &mut Vec<i64>) {
         } 
 
     }
+
+    *vetor = pares;
 }
 
 fn executar_estrategia(lista: &mut Vec<i64>, estrategia: fn(&mut Vec<i64>)) {
