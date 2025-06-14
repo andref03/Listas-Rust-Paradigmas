@@ -21,7 +21,15 @@ A função **`ordemCrescente`** é responsável por ordenar um vetor de números
 fn ordemCrescente(lista: &mut Vec<i64>)
 ```
 
-### 2. `filtrar_pares` (Filtragem de números pares)
+### 2. `ordena_decrescente` (Ordenação por Insertion Sort)
+A função **`ordena_decrescente`** é responsável por ordenar um vetor de números inteiros em ordem decrescente usando o algoritmo **Insertion Sort**. Esse algoritmo percorre o vetor e insere cada elemento na posição correta dentro da parte já ordenada.
+
+**Assinatura:**
+```rust
+fn ordena_decrescente(lista: &mut Vec<i64>)
+```
+
+### 4. `filtrar_pares` (Filtragem de números pares)
 
 A função **`filtrar_pares`** recebe um vetor mutável de inteiros e filtra apenas os números pares. O vetor é modificado in-place para conter apenas os valores pares distintos.
 
